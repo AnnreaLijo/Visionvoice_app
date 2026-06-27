@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splashactivity"
+    android:background="@drawable/logo"
+    >
+
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="500dp"-->
+    <!--        android:layout_height="500dp"-->
+    <!--        android:src="@drawable/logo"-->
+    <!--        android:layout_marginTop="120dp"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VisionVoice"
+        android:textSize="58sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#468CA6"
+        android:fontFamily="sans-serif-medium"
+        android:padding="12dp"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"/>
+
+
+
+</RelativeLayout>
